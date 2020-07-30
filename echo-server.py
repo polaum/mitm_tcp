@@ -2,7 +2,7 @@ import socket
 import threading
 
 HOST = '127.0.0.1'
-DB_HOST = '80.158.18.94'
+DB_HOST = ''
 DB_PORT = 8635
 PORT = 65431        # Port to listen on (non-privileged ports are > 1023)
 
