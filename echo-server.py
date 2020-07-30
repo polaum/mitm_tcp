@@ -13,7 +13,6 @@ def pipe(in_sock, out_sock):
             _data = in_sock.recv(1024)
             if not _data:
                 continue
-            print(_data, flush=True)
             out_sock.sendall(_data)
         except ConnectionResetError:
             continue
